@@ -1,0 +1,27 @@
+{
+  "name": "rpginjs",
+  "version": "1.0.0",
+  "description": "RPG in JS",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "cleanup": "node ./scripts/cleanup.js",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.156.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.4.3",
+    "vite-plugin-glsl": "^1.1.2"
+  },
+  "packageManager": "yarn@4.4.1"
+}
